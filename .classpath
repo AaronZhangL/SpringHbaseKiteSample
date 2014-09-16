@@ -6,14 +6,6 @@
 	<classpathentry kind="src" path="src/test/resources"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry exported="true" kind="con" path="org.springsource.ide.eclipse.gradle.classpathcontainer"/>
-	<classpathentry kind="lib" path="lib/kite-data-core-0.16.0.jar"/>
-	<classpathentry kind="lib" path="lib/kite-data-hbase-0.16.0.jar"/>
-	<classpathentry kind="lib" path="lib/spring-core-4.1.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-beans-4.1.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-context-4.1.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-data-hadoop-core-2.1.0.M1.jar"/>
-	<classpathentry kind="lib" path="lib/spring-data-hadoop-2.1.0.M1.jar"/>
-	<classpathentry kind="lib" path="lib/spring-expression-4.1.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop/tools/lib/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop/tools/lib/metrics-core-3.0.0.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop/tools/lib/paranamer-2.3.jar"/>
@@ -24,18 +16,37 @@
 	<classpathentry kind="lib" path="lib/hadoop/tools/lib/xmlenc-0.52.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop/tools/lib/xz-1.0.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop/tools/lib/zookeeper-3.4.5.jar"/>
-	<classpathentry kind="lib" path="lib/hadoop/tools/lib"/>
 	<classpathentry kind="lib" path="lib/hadoop/tools/lib/commons-logging-1.1.3.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop/tools/lib/avro-1.7.4.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop/tools/lib/jackson-core-asl-1.8.8.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop/tools/lib/jackson-jaxrs-1.8.8.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop/tools/lib/jackson-mapper-asl-1.8.8.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop/tools/lib/jackson-xc-1.8.8.jar"/>
-	<classpathentry kind="lib" path="lib/hadoop-mapreduce-client-core-2.4.1.jar"/>
-	<classpathentry kind="lib" path="lib/hadoop-common-2.4.1.jar"/>
-	<classpathentry kind="lib" path="lib/kite/lib/jdiff.jar"/>
 	<classpathentry kind="lib" path="lib/spring/lib/spring-jdbc-4.1.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring/lib/spring-orm-4.1.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring/lib/spring-tx-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring/lib/spring-boot-autoconfigure-1.2.0.BUILD-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/spring/lib/spring-boot-1.2.0.BUILD-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-annotations.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-client-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-common-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-dist-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-mapreduce-client-core-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop/hadoop-nfs-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/spring/lib/spring-beans-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring/lib/spring-context-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring/lib/spring-core-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring/lib/spring-data-hadoop-2.1.0.M1.jar"/>
+	<classpathentry kind="lib" path="lib/spring/lib/spring-data-hadoop-core-2.1.0.M1.jar"/>
+	<classpathentry kind="lib" path="lib/spring/lib/spring-expression-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/kite/lib_0.15.0/jdiff.jar"/>
+	<classpathentry kind="lib" path="lib/kite/lib_0.15.0/kite-data-core-0.15.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/kite/lib_0.15.0/kite-data-core-0.15.0-sources.jar"/>
+	<classpathentry kind="lib" path="lib/kite/lib_0.15.0/kite-data-core-0.15.0.jar"/>
+	<classpathentry kind="lib" path="lib/kite/lib_0.15.0/kite-data-hbase-0.15.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/kite/lib_0.15.0/kite-data-hbase-0.15.0-sources.jar"/>
+	<classpathentry kind="lib" path="lib/kite/lib_0.15.0/kite-data-hbase-0.15.0.jar"/>
+	<classpathentry kind="lib" path="lib/kite/lib_0.15.0/xerces.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -159,7 +159,7 @@ public class DatasetTemplate implements InitializingBean, DatasetOperations {
 	}
 
 	private <T> void readWithCallback(Class<T> targetClass, RecordCallback<T> callback, PartitionKey partitionKey) {
-		Dataset<T> dataset = DatasetUtils.getDataset(dsFactory, targetClass);
+	    Dataset<T> dataset = DatasetUtils.getDataset(dsFactory, targetClass);
 		if (dataset == null) {
 			throw new StoreException("Unable to locate dataset for target class " + targetClass.getName());
 		}
