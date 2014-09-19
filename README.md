@@ -1,6 +1,6 @@
 SpringHbaseKiteSample
 =====================
-This is a base project for control Hbase.
+This is a basic project for controlling Hbase.
 
 Include project list:
 
